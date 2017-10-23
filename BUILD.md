@@ -82,3 +82,10 @@ CMakeLists.txtはほぼすべて書き直しました。
   ```
   greaterThan(QT_MAJOR_VERSION, 5): QT += widgets
   ```
+
+How to set-up Qt Creator when libraries installed using Vcpkg?
+--------------------------------------------------------------
+Vcpkgを使用することで、Qtオプション(WITH_QT)を含むPCLを簡単に構築することができます。  
+ただし、Qt Creatorを使用するためには追加の設定が必要です。  
+
+* [How to use Qt that installed by Vcpkg with Qt Creator](https://gist.github.com/UnaNancyOwen/e24e67966af5f1d5f5cce4a88af7b4a4)
